@@ -1,0 +1,28 @@
+:root {
+    /* ==========================================
+       DEMOBIT THEME COLORS
+       Change these six values anytime
+       ========================================== */
+
+    --color-1: #D4F1F8;
+    --color-2: #C0E2F0;
+    --color-3: #ACD3E8;
+    --color-4: #99C4E1;
+    --color-5: #85B5D9;
+    --color-6: #71A6D1;
+
+    /* Main website colors */
+    --background: var(--color-1);
+    --surface: var(--color-2);
+    --surface-alt: var(--color-3);
+
+    --primary: var(--color-6);
+    --primary-light: var(--color-5);
+    --primary-dark: var(--color-4);
+
+    --text-main: #10202B;
+    --text-secondary: #465A66;
+
+    --white: #FFFFFF;
+    --border: rgba(16, 32, 43, 0.12);
+}

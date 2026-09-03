@@ -1,0 +1,75 @@
+/* =========================================================
+   DEMOBIT — GLOBAL THEME
+   Change ONLY these values to change the entire website
+   ========================================================= */
+
+   :root {
+
+    /* ---------- ICY GRADIENT PALETTE ---------- */
+
+    --ice-1: #D4F1F8;
+    --ice-2: #C0E2F0;
+    --ice-3: #ACD3E8;
+    --ice-4: #99C4E1;
+    --ice-5: #85B5D9;
+    --ice-6: #71A6D1;
+
+
+    /* ---------- SEMANTIC COLORS ---------- */
+
+    --color-background: var(--ice-1);
+    --color-surface: #FFFFFF;
+    --color-surface-soft: var(--ice-2);
+
+    --color-primary: var(--ice-6);
+    --color-primary-light: var(--ice-5);
+    --color-primary-dark: var(--ice-4);
+
+    --color-heading: #10202B;
+    --color-text: #304552;
+    --color-text-muted: #607784;
+
+    --color-border: rgba(16, 32, 43, 0.10);
+
+    --color-white: #FFFFFF;
+
+    /* ---------- GRADIENTS ---------- */
+
+    --gradient-main:
+        linear-gradient(
+            135deg,
+            var(--ice-1) 0%,
+            var(--ice-3) 50%,
+            var(--ice-5) 100%
+        );
+
+    --gradient-soft:
+        linear-gradient(
+            135deg,
+            var(--ice-1),
+            var(--ice-2)
+        );
+
+    /* ---------- SHADOW ---------- */
+
+    --shadow-small:
+        0 4px 15px rgba(16, 32, 43, 0.08);
+
+    --shadow-medium:
+        0 12px 35px rgba(16, 32, 43, 0.12);
+
+    --shadow-large:
+        0 20px 50px rgba(16, 32, 43, 0.16);
+
+
+    /* ---------- UI ---------- */
+
+    --radius-small: 10px;
+    --radius-medium: 18px;
+    --radius-large: 28px;
+
+    --container-width: 1180px;
+
+    --transition-fast: 0.2s ease;
+    --transition-medium: 0.3s ease;
+}
